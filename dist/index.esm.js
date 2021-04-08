@@ -2327,7 +2327,7 @@ var PanelFooter = function (_a) {
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
-                React.createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Milkswap Logo", style: {
+                React.createElement("img", { src: "https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Milkswap Logo", style: {
                         width: "24px",
                         marginRight: "8px",
                     } }),
