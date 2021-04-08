@@ -2087,10 +2087,10 @@ var Logo$1 = function (_a) {
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$N, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$M, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink$1, { as: "a", href: href, "aria-label": "MilkSwap home page" },
-            React__default['default'].createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Milkswap Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true", alt: "Milkswap Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "MilkSwap home page" },
-            React__default['default'].createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Milkswap Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: "https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true", alt: "Milkswap Logo", className: "desktop-icon" })))));
+            React__default['default'].createElement("img", { src: "https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "oinky Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo-large.png?raw=true", alt: "oinky Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "MilkSwap home page" },
+            React__default['default'].createElement("img", { src: "https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "oinky Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo-large.png?raw=true", alt: "oinky Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$y;
 
@@ -2106,11 +2106,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.milkswap.app",
+                href: "https://exchange.oinkydao.org",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.milkswap.app/#/pool",
+                href: "https://exchange.oinkydao.org/#/pool",
             },
         ],
     },
@@ -2752,10 +2752,10 @@ var templateObject_1$J;
 
 var baseColors = {
     failure: "#ff738e",
-    primary: "#5DC4D9",
-    primaryBright: "#5DC4D9",
-    primaryDark: "#5DC4D9",
-    secondary: "#5DC4D9",
+    primary: "#f4687d ",
+    primaryBright: "#f4687d ",
+    primaryDark: "#f4687d ",
+    secondary: "#f4687d",
     success: "#33CA7F",
     warning: "#fea192",
 };
