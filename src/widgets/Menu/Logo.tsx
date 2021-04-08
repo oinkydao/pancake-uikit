@@ -43,28 +43,28 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="MilkSwap home page">
+        <StyledLink as="a" href={href} aria-label="oinkydao home page">
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            src="https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
             alt="Milkswap Logo"
             className="mobile-icon"
           />
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
+            src="https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/large-logo.png?raw=true"
             alt="Milkswap Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="MilkSwap home page">
+        <StyledLink to={href} aria-label="oinkydao home page">
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            alt="oinkydao Logo"
             className="mobile-icon"
           />
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="https://github.com/oinkydao/pancake-uikit/blob/master/src/widgets/Menu/large-logo.png?raw=true"
+            alt="oinkydao Logo"
             className="desktop-icon"
           />
         </StyledLink>
